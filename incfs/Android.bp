@@ -98,6 +98,7 @@ cc_defaults {
 
 cc_library {
     name: "libincfs",
+    recovery_available: true,
     defaults: ["libincfs_defaults"],
     srcs: [
         "incfs_ndk.c",
